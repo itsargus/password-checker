@@ -33,7 +33,7 @@ def print_animated_banner():
 
     for line in banner.splitlines():
         print(green_color + line + reset_color)
-        time.sleep(0.2)
+        time.sleep(0.1)
 
 print_animated_banner()
 
@@ -127,4 +127,5 @@ while True:
 
     #щкала сложности
     print_strength_bar(password_point)
+
 
