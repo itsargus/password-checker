@@ -48,6 +48,10 @@ Password Checker — консольное приложение, которое �
    pip install requests zxcvbn
    pip install requests zxcvbn-python
 
+## Скриншоты
+<img width="1271" height="651" alt="image" src="https://github.com/user-attachments/assets/22512f4a-e1ac-4f3d-992b-e7ee033e1b7a" />
+
+
 
 
 
