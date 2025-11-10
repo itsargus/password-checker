@@ -1,54 +1,54 @@
 # Password Checker
 
-Программа на Python для **проверки и создания надежных паролей**.  
-Также проверяет, появлялся ли пароль в известных утечках с помощью [Have I Been Pwned API](https://haveibeenpwned.com/).
+A Python program for **checking and creating strong passwords**.  
+Also checks whether a password has appeared in known leaks using the [Have I Been Pwned API](https://haveibeenpwned.com/).
 
 ---
 
-## Описание
+## Description
 
-Password Checker — консольное приложение, которое помогает пользователю оценить силу пароля, проверить его по базе утечек и создать безопасный вариант.  
-В основе оценки используется библиотека `zxcvbn`, дополненная собственными правилами, а для онлайн-проверки утечек применяется безопасный метод `k-anonymity`.
-
----
-
-## Возможности
-
-### Проверка пароля
-- Оценка надежности пароля с помощью `zxcvbn` и дополнительных правил:
-  - Длина
-  - Заглавные и строчные буквы, цифры, специальные символы
-  - Распространённые слова и шаблоны
-  - Проверка утечек через API Have I Been Pwned
-- Отображение визуальной шкалы надежности
-
-### Создание пароля
-- Помощь в создании надежного пароля с подсказками:
-  - Какие символы добавить
-  - Избегать распространённых слов
-  - Рекомендации по длине
-  - Проверка на утечки
-
-### Поддержка языков
-- Возможность переключения между английским и русским языками.
-
-### Анимированный баннер
-- ASCII-баннер при запуске программы.
+Password Checker is a console application that helps the user evaluate password strength, check it against breach databases, and create a secure alternative.  
+The strength assessment is based on the `zxcvbn` library extended with custom rules, and leak checks use the `k-anonymity` method for privacy.
 
 ---
 
-## Установка
+## Features
 
-1. Клонировать репозиторий:
+### Password checking
+- Strength assessment with `zxcvbn` and additional rules:
+  - Length
+  - Uppercase and lowercase letters, digits, special characters
+  - Common words and patterns
+  - Leak checking via the Have I Been Pwned API
+- Visual strength bar display
+
+### Password creation
+- Help to create a strong password with tips:
+  - Which characters to add
+  - Avoid common words
+  - Length recommendations
+  - Leak check
+
+### Language support
+- Ability to switch between English and Russian.
+
+### Animated banner
+- ASCII banner on program startup.
+
+---
+
+## Installation
+
+1. Clone the repository:
    ```bash
    git clone https://github.com/itsargus/password-checker.git
    cd password-checker
-2. Установка уязвимостей:
+2. Installation of vulnerabilities:
    ```bash
    pip install requests zxcvbn
    pip install requests zxcvbn-python
 
-## Скриншоты
+## Screenshots
 <img width="1271" height="651" alt="image" src="https://github.com/user-attachments/assets/22512f4a-e1ac-4f3d-992b-e7ee033e1b7a" />
 
 
